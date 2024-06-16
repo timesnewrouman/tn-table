@@ -1,9 +1,10 @@
 <template>
-	1
+	<TableComponent/>
 </template>
 
 <script setup>
 
+import TableComponent from "@components/TableComponent.vue";
 </script>
 
 <style scoped>

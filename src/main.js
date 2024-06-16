@@ -3,7 +3,7 @@ import {createVuetify} from 'vuetify';
 import 'vuetify/styles';
 import App from './App.vue';
 import router from './router/router';
-import '@assets/styles/style.css';
+import '@assets/styles/index.scss';
 
 const vuetify = createVuetify({
   aliases: {},
