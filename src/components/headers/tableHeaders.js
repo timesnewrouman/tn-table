@@ -27,7 +27,7 @@ const hoursInDay = [
 ];
 
 const daysInMonth = [
-  {title: '', key: 'first', sortable: false},
+  {title: '', key: 'stringNumber', sortable: false},
   {title: '1', key: 'd1', sortable: false},
   {title: '2', key: 'd2', sortable: false},
   {title: '3', key: 'd3', sortable: false},

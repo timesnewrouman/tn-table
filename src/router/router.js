@@ -1,22 +1,25 @@
-import {createRouter, createWebHashHistory} from 'vue-router';
-// import MainPage from "@/pages/MainPage.vue";
+import {createRouter, createWebHistory} from 'vue-router';
 
 const routes = [
   {
     path: '/',
     name: 'MainPage',
-    // component: MainPage
     component: () => import("@/pages/MainPage.vue"),
   },
-  // {
-  //   path: '/',
-  //   name: 'VuetifyTest',
-  //   component: () => import("@/pages/VuetifyTest.vue"),
-  // },
+  {
+    path: '/hoursTable',
+    name: 'HoursTable',
+    component: () => import("@/pages/HoursTablePage.vue"),
+  },
+  {
+    path: '/daysTable',
+    name: 'DaysTable',
+    component: () => import("@/pages/DaysTablePage.vue"),
+  },
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes
 })
 
